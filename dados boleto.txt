@@ -1,0 +1,22 @@
+string url = "http://devdicas.blogspot.com";
+System.Diagnostics.Process.Start(url);
+
+[Dados Boleto]
+Código Boleto(codigo_cliente+codigo_empresa+data_documento+data)
+Nosso Numero(codigo sequencial)
+Data Vencimento
+Data Documento
+Valor (ex 350.00)
+Demonstrativo1
+Demonstrativo2
+Instruções3
+
+[Dados do Cliente]
+Nome
+Endereço/Cidade
+CPF/CNPJ
+
+[Dados da Empresa]
+Nome
+Endereço/Cidade
+CPF/CNPJ

@@ -1,0 +1,29 @@
+[Empresa]
+Codigo
+Nome/Razão Social
+Logradouro
+Número
+Complemento
+Bairro
+CEP
+Cidade
+RG/Inscrição Estadual
+CPF/CNPJ
+
+[Cobrança]
+Código
+Domínio/Hospedagem
+Período
+Cliente
+Empresa
+Valor
+Instuções1 Boleto
+Instuções2 Boleto
+Instuções3 Boleto
+
+Criar Estas Classes
+[Planos]
+[Hospedagem]
+[Contas a Pagar]
+[Contas a Receber]
+[Boletos]

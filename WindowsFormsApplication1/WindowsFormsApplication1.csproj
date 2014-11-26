@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{45C14BB5-F391-4B64-9212-E5C6086E1D6B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="banco_friedrichdesignDataSet1.cs">
+      <DependentUpon>banco_friedrichdesignDataSet1.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="banco_friedrichdesignDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>banco_friedrichdesignDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="banco_friedrichdesignDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>banco_friedrichdesignDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="classes\Boleto.cs" />
+    <Compile Include="classes\Cidade.cs" />
+    <Compile Include="classes\Cliente.cs" />
+    <Compile Include="classes\ContasReceber.cs" />
+    <Compile Include="classes\Dao.cs" />
+    <Compile Include="classes\DaoCidade.cs" />
+    <Compile Include="classes\DaoCliente.cs" />
+    <Compile Include="classes\DaoContaReceber.cs" />
+    <Compile Include="classes\DaoEmpresa.cs" />
+    <Compile Include="classes\DaoEstado.cs" />
+    <Compile Include="classes\DaoHosts.cs" />
+    <Compile Include="classes\DaoPais.cs" />
+    <Compile Include="classes\DaoPlano.cs" />
+    <Compile Include="classes\Empresa.cs" />
+    <Compile Include="classes\Hosts.cs" />
+    <Compile Include="classes\Pais.cs" />
+    <Compile Include="classes\Estado.cs" />
+    <Compile Include="classes\Pessoa.cs" />
+    <Compile Include="classes\Plano.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaces\frmBoleto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaces\frmBoleto.Designer.cs">
+      <DependentUpon>frmBoleto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaces\frmCadContasReceber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaces\frmCadContasReceber.Designer.cs">
+      <DependentUpon>frmCadContasReceber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaces\frmCadPlano.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaces\frmCadPlano.Designer.cs">
+      <DependentUpon>frmCadPlano.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaces\frmComBoleto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaces\frmComBoleto.Designer.cs">
+      <DependentUpon>frmComBoleto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaces\frmConContasReceber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaces\frmConContasReceber.Designer.cs">
+      <DependentUpon>frmConContasReceber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaces\frmConEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaces\frmConEmpresa.Designer.cs">
+      <DependentUpon>frmConEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaces\frmCadCidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaces\frmCadCidade.Designer.cs">
+      <DependentUpon>frmCadCidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaces\frmCadCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaces\frmCadCliente.Designer.cs">
+      <DependentUpon>frmCadCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaces\frmCadEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaces\frmCadEmpresa.Designer.cs">
+      <DependentUpon>frmCadEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaces\frmCadEstado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaces\frmCadEstado.Designer.cs">
+      <DependentUpon>frmCadEstado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaces\frmCadHospedagem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaces\frmCadHospedagem.Designer.cs">
+      <DependentUpon>frmCadHospedagem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaces\frmCadPais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaces\frmCadPais.Designer.cs">
+      <DependentUpon>frmCadPais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaces\frmConCidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaces\frmConCidade.Designer.cs">
+      <DependentUpon>frmConCidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaces\frmConCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaces\frmConCliente.Designer.cs">
+      <DependentUpon>frmConCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaces\frmConEstado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaces\frmConEstado.Designer.cs">
+      <DependentUpon>frmConEstado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaces\frmConHospedagem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaces\frmConHospedagem.Designer.cs">
+      <DependentUpon>frmConHospedagem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaces\frmConPais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaces\frmConPais.Designer.cs">
+      <DependentUpon>frmConPais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaces\frmConPlano.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaces\frmConPlano.Designer.cs">
+      <DependentUpon>frmConPlano.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaces\ftmConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaces\ftmConsulta.Designer.cs">
+      <DependentUpon>ftmConsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="interfaces\teste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfaces\teste.Designer.cs">
+      <DependentUpon>teste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaces\frmBoleto.resx">
+      <DependentUpon>frmBoleto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaces\frmCadContasReceber.resx">
+      <DependentUpon>frmCadContasReceber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaces\frmCadPlano.resx">
+      <DependentUpon>frmCadPlano.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaces\frmComBoleto.resx">
+      <DependentUpon>frmComBoleto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaces\frmConContasReceber.resx">
+      <DependentUpon>frmConContasReceber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaces\frmConEmpresa.resx">
+      <DependentUpon>frmConEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaces\frmCadCidade.resx">
+      <DependentUpon>frmCadCidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaces\frmCadCliente.resx">
+      <DependentUpon>frmCadCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaces\frmCadEmpresa.resx">
+      <DependentUpon>frmCadEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaces\frmCadEstado.resx">
+      <DependentUpon>frmCadEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaces\frmCadHospedagem.resx">
+      <DependentUpon>frmCadHospedagem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaces\frmCadPais.resx">
+      <DependentUpon>frmCadPais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaces\frmConCidade.resx">
+      <DependentUpon>frmConCidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaces\frmConCliente.resx">
+      <DependentUpon>frmConCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaces\frmConEstado.resx">
+      <DependentUpon>frmConEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaces\frmConHospedagem.resx">
+      <DependentUpon>frmConHospedagem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaces\frmConPais.resx">
+      <DependentUpon>frmConPais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaces\frmConPlano.resx">
+      <DependentUpon>frmConPlano.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaces\ftmConsulta.resx">
+      <DependentUpon>ftmConsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfaces\teste.resx">
+      <DependentUpon>teste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="banco_friedrichdesignDataSet1.xsc">
+      <DependentUpon>banco_friedrichdesignDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="banco_friedrichdesignDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>banco_friedrichdesignDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="banco_friedrichdesignDataSet1.xss">
+      <DependentUpon>banco_friedrichdesignDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="banco_friedrichdesignDataSet11.xsc">
+      <DependentUpon>banco_friedrichdesignDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="banco_friedrichdesignDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>banco_friedrichdesignDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="banco_friedrichdesignDataSet11.xss">
+      <DependentUpon>banco_friedrichdesignDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

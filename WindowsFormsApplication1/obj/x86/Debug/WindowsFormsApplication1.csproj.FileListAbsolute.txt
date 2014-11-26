@@ -1,0 +1,58 @@
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.ftmConsulta.resources
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmConCliente.resources
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmConPais.resources
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmConEstado.resources
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmConCidade.resources
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmCadPais.resources
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmCadEstado.resources
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmCadCidade.resources
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmCadCliente.resources
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmConHospedagem.resources
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmCadHospedagem.resources
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmConEmpresa.resources
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmCadEmpresa.resources
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmConPlano.resources
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmCadPlano.resources
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmCadPlano.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmConEmpresa.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmCadCidade.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmCadCliente.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmCadEmpresa.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmCadEstado.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmCadHospedagem.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmCadPais.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmConCidade.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmConCliente.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmConEstado.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmConHospedagem.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmConPais.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmConPlano.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.ftmConsulta.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.teste.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.teste.resources
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmConContasReceber.resources
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmCadContasReceber.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmCadContasReceber.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmConContasReceber.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmComBoleto.resources
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmComBoleto.resources
+C:\Users\Hp usuario\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmBoleto.resources
+C:\Users\Julio\Dropbox\Sistema Julio\Hospedagem\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.interfaces.frmBoleto.resources
